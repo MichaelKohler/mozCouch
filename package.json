@@ -1,0 +1,12 @@
+{
+  "name": "mozCouch",
+  "version": "0.0.1",
+  "author": "Mozilla",
+  "description": "A Couchsurfing app and server for communities.",
+  "dependencies" : {
+    "gulp"                   :  "3.8.8",
+    "gulp-jslint"            :  "0.1.7",
+    "gulp-webserver"         :   "0.8.0",
+    "normalize.css"          :  "3.0.1"
+  }
+}

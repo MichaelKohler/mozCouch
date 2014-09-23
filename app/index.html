@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="MozCouch" ng-csp>
+<head>
+    <meta charset="utf-8">
+    <title>MozCouch</title>
+    <meta name="description" content="Sync your contacts with your own Owncloud intance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div id="app" ng-controller="AppController">
+        {{test}}
+        <ng-view></ng-view>
+    </div>
+
+    <script src="assets/js/libs/jquery-2.1.1.js"></script>
+    <script src="assets/js/libs/angularjs_1.3.0b.js"></script>
+    <script src="assets/js/libs/angularjs-route.js"></script>
+
+    <!-- TODO: build for production = all in one file -->
+    <script src="app.js"></script>
+    <script src="controller/AppController.js"></script>
+    <script src="controller/IndexController.js"></script>
+
+</body>
+</html>
